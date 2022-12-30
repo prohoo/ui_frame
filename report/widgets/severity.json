@@ -1,0 +1,31 @@
+[ {
+  "uid" : "d67b59c0822ddc2c",
+  "name" : "test_1[用例一(admin_driver)]",
+  "time" : {
+    "start" : 1672302035160,
+    "stop" : 1672302063561,
+    "duration" : 28401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64c8f5424f6e91bb",
+  "name" : "test_3[case0]",
+  "time" : {
+    "start" : 1672302063567,
+    "stop" : 1672302063567,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b52bf4e7f1ef7fe1",
+  "name" : "test_2[case0]",
+  "time" : {
+    "start" : 1672302063565,
+    "stop" : 1672302063565,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

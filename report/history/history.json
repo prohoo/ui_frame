@@ -1,0 +1,61 @@
+{
+  "9c3ac2c78708c63200ee118b4486e25c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d67b59c0822ddc2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672302035160,
+        "stop" : 1672302063561,
+        "duration" : 28401
+      }
+    } ]
+  },
+  "1e8584c1287ce6371cf45b3100711415" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64c8f5424f6e91bb",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_pytest_case at D:\\ui_selenium\\ui_frame\\core\\createCase.py:72",
+      "time" : {
+        "start" : 1672302063567,
+        "stop" : 1672302063567,
+        "duration" : 0
+      }
+    } ]
+  },
+  "12dc0104e85d116212d1a0a6082fc819" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b52bf4e7f1ef7fe1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_pytest_case at D:\\ui_selenium\\ui_frame\\core\\createCase.py:72",
+      "time" : {
+        "start" : 1672302063565,
+        "stop" : 1672302063565,
+        "duration" : 0
+      }
+    } ]
+  }
+}

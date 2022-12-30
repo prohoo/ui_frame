@@ -1,0 +1,5 @@
+INFO     core.createCase:createCase.py:77 测试用例开始执行
+INFO     core.createCase:createCase.py:89 执行关键字name='进入top_iframe', key='iframe_enter', args=['/html/frameset/frame[1]']
+INFO     core.createCase:createCase.py:89 执行关键字name="点击'贷款管理'", key='click', args=['贷款管理;;;LINK_TEXT']
+INFO     core.createCase:createCase.py:89 执行关键字name='退出顶部框架', key='iframe_exit', args=[]
+INFO     core.createCase:createCase.py:94 测试用例执行结束

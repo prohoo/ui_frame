@@ -1,0 +1,175 @@
+{
+  "uid" : "d67b59c0822ddc2c",
+  "name" : "test_1[用例一(admin_driver)]",
+  "fullName" : "testcases.test_excel#test_1",
+  "historyId" : "9c3ac2c78708c63200ee118b4486e25c",
+  "time" : {
+    "start" : 1672302035160,
+    "stop" : 1672302063561,
+    "duration" : 28401
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "admin_driver",
+    "time" : {
+      "start" : 1672302035161,
+      "stop" : 1672302063111,
+      "duration" : 27950
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入top_iframe",
+      "time" : {
+        "start" : 1672302063111,
+        "stop" : 1672302063126,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击'贷款管理'",
+      "time" : {
+        "start" : 1672302063255,
+        "stop" : 1672302063305,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "退出顶部框架",
+      "time" : {
+        "start" : 1672302063423,
+        "stop" : 1672302063427,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "79a0da807818dddf",
+      "name" : "进入top_iframe",
+      "source" : "79a0da807818dddf.attach",
+      "type" : "image/png",
+      "size" : 105412
+    }, {
+      "uid" : "a9858ce8573eb8bf",
+      "name" : "点击'贷款管理'",
+      "source" : "a9858ce8573eb8bf.attach",
+      "type" : "image/png",
+      "size" : 105330
+    }, {
+      "uid" : "7d44c6ffb437d351",
+      "name" : "退出顶部框架",
+      "source" : "7d44c6ffb437d351.attach",
+      "type" : "image/png",
+      "size" : 112462
+    }, {
+      "uid" : "7d22b60d1d874680",
+      "name" : "log",
+      "source" : "7d22b60d1d874680.txt",
+      "type" : "text/plain",
+      "size" : 607
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "admin_driver::0",
+    "time" : {
+      "start" : 1672302063568,
+      "stop" : 1672302065667,
+      "duration" : 2099
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Web自动化测试平台"
+  }, {
+    "name" : "story",
+    "value" : "Sheet1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "host",
+    "value" : "DESK-GL651D6"
+  }, {
+    "name" : "thread",
+    "value" : "22004-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'name': '用例一(admin_driver)', 'steps': [(1, '进入top_iframe', 'iframe_enter', '/html/frameset/frame[1]'), (2, \"点击'贷款管理'\", 'click', '贷款管理;;;LINK_TEXT'), (3, '退出顶部框架', 'iframe_exit', None)]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d67b59c0822ddc2c.json",
+  "parameterValues" : [ "{'name': '用例一(admin_driver)', 'steps': [(1, '进入top_iframe', 'iframe_enter', '/html/frameset/frame[1]'), (2, \"点击'贷款管理'\", 'click', '贷款管理;;;LINK_TEXT'), (3, '退出顶部框架', 'iframe_exit', None)]}" ]
+}

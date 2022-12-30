@@ -1,0 +1,72 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Web自动化测试平台",
+    "children" : [ {
+      "name" : "Sheet1",
+      "children" : [ {
+        "name" : "test_1[用例一(admin_driver)]",
+        "uid" : "d67b59c0822ddc2c",
+        "parentUid" : "11360658474cd863fab3709c3618055b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672302035160,
+          "stop" : 1672302063561,
+          "duration" : 28401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用例一(admin_driver)', 'steps': [(1, '进入top_iframe', 'iframe_enter', '/html/frameset/frame[1]'), (2, \"点击'贷款管理'\", 'click', '贷款管理;;;LINK_TEXT'), (3, '退出顶部框架', 'iframe_exit', None)]}" ]
+      } ],
+      "uid" : "11360658474cd863fab3709c3618055b"
+    }, {
+      "name" : "Sheet2",
+      "children" : [ {
+        "name" : "test_2[case0]",
+        "uid" : "b52bf4e7f1ef7fe1",
+        "parentUid" : "bcee50926b783fe7a6771c80d749b9cc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1672302063565,
+          "stop" : 1672302063565,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<NotSetType.token: 0>" ]
+      } ],
+      "uid" : "bcee50926b783fe7a6771c80d749b9cc"
+    }, {
+      "name" : "Sheet3",
+      "children" : [ {
+        "name" : "test_3[case0]",
+        "uid" : "64c8f5424f6e91bb",
+        "parentUid" : "41e6bd55ab02b5a8dd22ca23c7a4a050",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1672302063567,
+          "stop" : 1672302063567,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<NotSetType.token: 0>" ]
+      } ],
+      "uid" : "41e6bd55ab02b5a8dd22ca23c7a4a050"
+    } ],
+    "uid" : "8e558a229c868d4f8567799ba4c6b525"
+  } ]
+}
